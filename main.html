@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
@@ -8,6 +6,46 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div>
+			<label for="name">Name*</label>
+			<input type="text" required id="name">
+		</div>
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" required id=email>
+		</div>
+		<div>
+		<label>Gender*</label>
+		<input type="radio" value="mail" name="gender" required>
+		<input type="radio" name="gender" required>
+		</div>
+		<div>
+			<label for="Car">Car brands</label>
+			<select id="Car">
+				<option>BMW</option>
+				<option>Audi</option>
+				<option>Mercedez</option>
+			</select>
+		</div>
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" id="age" required>
+		</div>
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" id="dob" required>
+		</div>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" id="password" required>
+		</div>
+		<div>
+			<label for="portfolio">portfolio</label>
+			<input type="url" id="portfolio">
+		</div>
+			<button type="submit">submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
